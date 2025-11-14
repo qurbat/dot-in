@@ -2,7 +2,7 @@
 
 This repository provides daily snapshots of newly registered domains (NRDs) for the .IN registry for threat intelligence and security research purposes.
 
-This repository uses the GitHub Actions workflow defined in `.github/workflows/daily-domain-fetch.yml` and the `fetch_registry_domains.py` script to automatically fetch and extract domain data from the [.IN registry](https://registry.in) every morning at 5 AM IST, processing the previous day's registrations.
+This repository uses the GitHub Actions workflow defined in `.github/workflows/daily-domain-fetch.yml` and the `fetch_registry_domains.py` script to automatically fetch and extract domain data from the [.IN registry](https://registry.in) every morning at 9 AM IST, processing the previous day's registrations.
 
 ## Data format and source
 
